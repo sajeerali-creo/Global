@@ -1,0 +1,51 @@
+.service{
+	.service-cercle{
+		width: 60px;
+		height: 60px;
+		float: left;
+		border-radius:160px;
+		-webkit-border-radius:160px;
+		-moz-border-radius:160px;
+		border:2px solid #95989A;
+		line-height: 60px;
+		text-align: center;
+		color: #353848;
+		font-size: 20px;
+		margin-right: 40px;
+	}
+	.service-content{
+		width: calc(100% - 100px);
+		float: left;
+		h2{
+			font-size: 20px;
+			color: #353848;
+			font-weight: bold;
+			display: block;
+			padding-bottom: 10px;
+			text-align: left;
+		}
+		p{
+			font-size: 13px;
+			color: #999;
+			line-height:20px;
+		}
+
+	}
+	
+}
+
+.right-ali{
+	.service-cercle{
+		float: right!important;
+		margin-left: 20px;
+		margin-right: 0px!important;
+	}
+	.service-content{
+		h2{
+			text-align: right!important;
+		}
+		p{
+			text-align: right!important;
+		}
+	}
+}

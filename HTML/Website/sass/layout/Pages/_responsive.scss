@@ -1,0 +1,225 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+.home-header{
+		.subheader{
+			display: none;
+		}
+		.menu-header{
+			display: none;
+		}
+		.button-collapse{
+			display: block!important;
+			span{
+				font-size: 35px;
+				line-height: 55px;
+				color: #353848;
+			}
+		}
+		.logo-header{
+			width: 100%!important;
+			img{
+				width: 150px;
+			}
+		}
+	}
+	.slider{
+		.slides{
+			h5{
+				font-size: 20px;
+			}
+		}
+	}
+	.abt{
+		h2{
+			padding-top: 30px;
+		}
+	}
+	.each-padding{
+		padding: 20px 0px;
+	}
+	footer{
+		ul{
+			float: left;
+		}
+	}
+	.bg-section{
+		h2{
+			font-size: 20px;
+			width: 85%;
+			text-align: center;
+			margin: 0px auto;
+		}
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	.home-header{
+		.subheader{
+			display: none;
+		}
+		.menu-header{
+			display: none;
+		}
+		.button-collapse{
+			display: block!important;
+			span{
+				font-size: 35px;
+				line-height: 55px;
+				color: #353848;
+			}
+		}
+		.logo-header{
+			width: 100%!important;
+			img{
+				width: 150px;
+			}
+		}
+	}
+	.slider{
+		.slides{
+			h5{
+				font-size: 20px;
+			}
+		}
+	}
+	.abt{
+		h2{
+			padding-top: 30px;
+		}
+	}
+	.each-padding{
+		padding: 20px 0px;
+	}
+	footer{
+		ul{
+			float: left;
+		}
+	}
+	.bg-section{
+		h2{
+			font-size: 20px;
+			width: 85%;
+			text-align: center;
+			margin: 0px auto;
+		}
+	}
+	.service{
+		.service-cercle{
+			display: none;
+		}
+		.service-content{
+			width: 100%;
+		}
+	}
+
+	.right-ali{
+		.service-cercle{
+			float: left!important;
+			margin-left: 0px!important;
+			margin-right: 0px!important;
+		}
+		.service-content{
+			h2{
+				text-align: left!important;
+			}
+			p{
+				text-align: left!important;
+			}
+		}
+	}
+	.contact-detail{
+		margin-top: 20px;
+	}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	.home-header{
+		.subheader{
+			display: none;
+		}
+		.menu-header{
+			display: none;
+		}
+		.button-collapse{
+			display: block!important;
+			span{
+				font-size: 35px;
+				line-height: 55px;
+				color: #353848;
+			}
+		}
+		.logo-header{
+			width: 100%!important;
+			img{
+				width: 150px;
+			}
+		}
+	}
+	.slider{
+		.slides{
+			h5{
+				font-size: 20px;
+			}
+		}
+	}
+	.abt{
+		h2{
+			padding-top: 30px;
+		}
+	}
+	.each-padding{
+		padding: 20px 0px;
+	}
+	footer{
+		ul{
+			float: left;
+		}
+	}
+	.bg-section{
+		h2{
+			font-size: 20px;
+			width: 85%;
+			text-align: center;
+			margin: 0px auto;
+		}
+	}
+	.service{
+		.service-cercle{
+			display: none;
+		}
+		.service-content{
+			width: 100%;
+		}
+	}
+
+	.right-ali{
+		.service-cercle{
+			float: left!important;
+			margin-left: 0px!important;
+			margin-right: 0px!important;
+		}
+		.service-content{
+			h2{
+				text-align: left!important;
+			}
+			p{
+				text-align: left!important;
+			}
+		}
+	}
+	.contact-detail{
+		margin-top: 20px;
+	}
+}

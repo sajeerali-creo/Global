@@ -1,0 +1,26 @@
+.about-sec{
+	h1{
+		font-size: 23px;
+		color: #353848;
+		font-weight: 400;
+		padding-bottom:30px; 
+		display: bold;
+		text-align: center;
+		strong{
+			font-size: 23px;
+			color: #353848;
+			font-weight:bold!important;
+		}
+	}
+	p{
+		font-size: 13px;
+		color: #999;
+		line-height: 20px;
+		text-align: center;
+	}
+}
+
+.white-box{
+	width:100%;
+	float:left;
+}

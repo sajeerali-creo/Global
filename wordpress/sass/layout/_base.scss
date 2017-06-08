@@ -1,0 +1,42 @@
+body,p,span,h5,h6,a,strong,li,button{
+	font-size:14px;
+	color:#999;
+	font-family: 'Open Sans', sans-serif;
+	 -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea{
+	border-bottom: 1px solid #e1e1e1!important;
+}
+
+.each-padding{
+	padding:50px 0px;
+}
+
+.inner-banner{
+	min-height:220px;
+	background-image:url(../images/banner2.png);
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:top;
+	h3{
+		line-height: 220px;
+		font-size: 30px;
+		color: #fff;
+		font-weight: bold;
+		text-align: center;
+		display: block;
+		width: 100%;
+		margin: 0px auto;
+		float: left;
+	}
+}
+
+.mg-botom-30{
+	margin-bottom:40px;
+}
+
+.margin-top-10{
+	margin-top:15px!important;
+}

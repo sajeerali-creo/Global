@@ -1,0 +1,65 @@
+.contact-detail{
+	background-color:#e1e1e1;
+	padding:15px;
+	h2{
+		font-size: 16px;
+		color: #353848;
+		padding-bottom:15px;
+		font-weight: 600;
+	}
+	p{
+		color: #666;
+		font-size: 14px;
+		padding-bottom:8px;
+	}
+}
+
+.wpcf7-textarea{
+	border:none!important;
+	background-color: transparent!important;
+    border-bottom: 1px solid #e1e1e1!important;
+    border-radius: 0!important;
+    outline: none!important;
+    height: 3rem!important;
+    width: 100%!important;
+    font-size: 1rem!important;
+    margin: 0 0 20px 0!important;
+    padding: 0!important;
+    box-shadow: none!important;
+    box-sizing: content-box!important;
+    transition: all 0.3s!important;
+}
+
+.wpcf7-submit{
+	display: block;
+	text-align: center!important;
+	color: #fff!important;
+	text-transform: uppercase!important;
+	background-color:#353848!important;
+	border:none!important;
+	height: 39px!important;
+	width: 150px!important;
+	font-size: 13px!important;
+	font-weight: 600!important;
+	border-radius:3px!important;
+	-webkit-border-radius:3px!important;
+	-moz-border-radius:3px!important;
+}
+
+div.wpcf7-validation-errors{
+	padding: 20px;
+    background: #FDD692;
+    color: #b76d1e;
+    border:none!important;
+    margin: 0px!important;
+    font-weight: 600;
+}
+
+div.wpcf7-mail-sent-ok{
+	padding: 20px;
+    background: #67D5B5;
+    color: #fff;
+    border:none!important;
+    margin: 0px!important;
+    font-weight: 600;
+}
